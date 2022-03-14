@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelicioso</title>
+
+</head>
+<h1>Pastelicioso</h1>
+<h2>creando dulces recuerdos</h2>
+<img src="assets\img\logo2.jpg" alt="pastelicioso logo" width="250" height="250">
+<body>
+<main>
+    <div>
+        <h2>Tipos de pan y relleno</h2>
+        <section class="cards-container">
+            <div class="card">
+                <p>Cheescake fresa: <span>pan combinado de fresa natural</span></p>
+            </div>
+            <div class="card">
+                <p>Tres leches: <span>Relleno de crema</span></p>
+            </div>
+            <div class="card">
+                <p>Chocolate: <span>Cholate con avellanas</span></p>
+            </div>
+        </section>
+        <br>
+        <h2>Listado de precios</h2>
+        <section class="cards-container">
+            <div class="card">
+                <p>Cheescake fresa: <span>$300</span></p>
+            </div>
+            <div class="card">
+                <p>Tres leches: <span>$350</span></p>
+            </div>
+            <div class="card">
+                <p>Chocolate: <span>$450</span></p>
+            </div>
+            <div class="card">
+                <p>Cualquier combinado que deseé realizar tiene costo extra de: <span>$100</span></p>
+            </div>
+        </section>
+        <br>
+        <h2>Listado de adornos y precio</h2>
+        <section class="cards-container">
+            <div class="card">
+                <p>Escritura en pastel: <span>Gratis</span></p>
+            </div>
+            <div class="card">
+                <p>Velita normal: <span>$30</span></p>
+            </div>
+            <div class="card">
+                <p>Velita de chispitas: <span>$50</span></p>
+            </div>
+            <div class="card">
+                <p>Velita con apertura tipo flor: <span>$120</span></p>
+            </div>
+        </section>
+        <br>
+        <h1>Puedes realizar tu pedido aquí:</h1>
+        <form action="#" method="post">
+            <label for="name">Nombre </label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email </label><br>
+            <input type="email" id="email"><br>
+            <label for="phone">Teléfono </label><br>
+            <input type="text" id="phone"><br>
+            <div class="combinar-selectores">
+                <select id="tipo_pan" name="tipo_pan">
+                    <option disabled selected>Selecciona una opción</option>
+                    <option value="1">Cheescake fresa</option>
+                    <option value="2">Tres leches</option>
+                    <option value="3">Chocolate</option>
+                </select>
+                <select id="extra" name="tipo_vela">
+                    <option disabled selected>Selecciona una opción</option>
+                    <option value="1">Velita normal</option>
+                    <option value="2">Velita de chispitas</option>
+                    <option value="3">Velita tipo flor</option>
+                </select>
+            </div>
+            <label for="message">Mensaje </label>
+            <br>
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Agrega mensaje si gustas"></textarea>
+            <br>
+            <button>Generar pedido</button>
+        </form>
+
+        <br>
+        <h3>Información de pastelicioso</h3>
+        <div class="direction">
+            <p>Direccción: Azucenas, Colonia <span>Jardines</span>, Chetumal, Mex. Teléfono <span>983-1190411</span></p>
+            <p>Horarios: Lunes a Domingo: 9:00 am a 9:00 pm</p>
+            <p>Estamos a tus ordenes, gracias por visitarnos.</p>
+        </div>
+    </div>
+</main>
+</body>
+
+</html>
